@@ -1,2 +1,2 @@
 # GrocreyMenu
-Grocrey menu that uses This pointer, classes, and objects
+Grocrey menu in C++ that uses This pointer, classes, and objects (Unfinished)
