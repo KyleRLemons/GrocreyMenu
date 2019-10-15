@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kylelemons/CLionProjects/Grocrey/ItemToPurchase.h
+string
+-
+iostream
+-
+vector
+-
+
+/Users/kylelemons/CLionProjects/Grocrey/ShoppingCart.h
+ItemToPurchase.h
+/Users/kylelemons/CLionProjects/Grocrey/ItemToPurchase.h
+string
+-
+iostream
+-
+vector
+-
+
+/Users/kylelemons/CLionProjects/Grocrey/main.cpp
+iostream
+-
+string
+-
+vector
+-
+ItemToPurchase.h
+/Users/kylelemons/CLionProjects/Grocrey/ItemToPurchase.h
+ShoppingCart.h
+/Users/kylelemons/CLionProjects/Grocrey/ShoppingCart.h
+
